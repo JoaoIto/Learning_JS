@@ -1,4 +1,4 @@
-# Object.setPrototypeOf()
+# `Object.setPrototypeOf()`
 
 **Quando nós lidamos com orientação a objetos, é bastante problemático a cópia e repetitividade de código, fazendo com que precisamos usar uma função muito importante que consiga tratar alguns trecho base de código para que consigamos reutilizá-los em outras partes de código.**
 
