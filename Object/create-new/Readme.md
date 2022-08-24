@@ -1,4 +1,4 @@
-# create vs new 💢
+# Wich methods do use? create vs new 💢
 
 Para entendermos como funciona a herança de protótipo no JavaScript, é fundamental entender, praticar, como funciona o *this* e o *bind*, mas essa não é a forma como os objetos são criados nesse modelo, então vamos dar uma olhada, porque isso pode ser feito de duas formas, ou com o operador *`new`* ou com o *`object.create`*
 
