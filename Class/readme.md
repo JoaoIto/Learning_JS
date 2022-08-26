@@ -3,7 +3,6 @@
 **A classe parte do pressuposto um pouco mais comum, e de fácil entendimento até para o usuário, na qual o protótipo da classe principal, usa o `new` e assim é instanciada com vários atributos da mesma classe sendo herdados…**
 
 ---
-
 **A classe em JS, usa o objeto de *constructor* para que consiga herdar todos os seus atributos através de parâmetros. Basicamente o objeto principal de *constructor* serve para que consigamos dizer oque deve construída nesse objeto, e não só colocar atributos não mutáveis sem o mesmo...**
 
 **Ainda sim, a partir dessa função principal, ainda conseguimos construir funções, que dentro da classe, são chamadas de métodos!**
