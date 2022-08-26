@@ -55,3 +55,42 @@ Joao, joao@gmail.com
 ```
 
 ---
+
+## Super classe:
+
+**Dentro de uma classe, ainda podemos instanciar e buscar atributos de uma outa classe, sendo assim uma árvore de hierarquia e herança, fazendo com que conseguíssemos fazer mais objetos de classes a partir de um filho de uma classe mãe. A partir da função de `super()`;**
+
+**Importamos a classe de User, a classe mãe, para que conseguíssemos a partir de endereçamento o que deve ser chamado para a classe filha. E assim só usamos a função de herda `super()` para que os atributos e métodos sejam herdados!**
+
+```jsx
+import User from "./User.js";
+
+class Admin extends User {
+    constructor(nome, email, nascimento, role = "admin", ativo = true){
+        super(nome, email, nascimento, role, ativo);
+    };
+};
+```
+
+### Teste:
+
+```jsx
+const novoAdmin = new Admin("Mly", "mly@gmail.com", "16/01/2005");
+console.log(novoAdmin);
+console.log(novoAdmin.exibirInfos());
+```
+
+### Resultado no console:
+
+```jsx
+Admin {
+  nome: 'Mly',
+  email: 'mly@gmail.com',
+  nascimento: '16/01/2005',
+  role: 'admin',
+  ativo: true
+}
+Mly, mly@gmail.com
+```
+
+---
