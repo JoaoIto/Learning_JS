@@ -16,4 +16,44 @@ export class User {
   exibirInfos() {
     return `O nome do usuário é: ${this.#nome}, com email: ${this.#email}`;
   }
+
+  get nome(){
+    return this.#nome;
+  }
+
+  set nome(nome){
+    this.#nome = nome;
+  }
+
+  get email(){
+    return this.#email;
+  }
+
+  set email(email){
+    this.#email = email;
+  }
+
+  get nascimento(){
+    return this.#nascimento;
+  }
+
+  set nascimento(nascimento){
+    this.#nascimento = nascimento;
+  }
+
+  get role(){
+    return this.#role;
+  }
+
+  set role(role){
+    this.#role = role;
+  }
+
+  get ativo(){
+    return this.#ativo;
+  }
+
+  set ativo(ativo){
+    this.#ativo = ativo;
+  }
 }
